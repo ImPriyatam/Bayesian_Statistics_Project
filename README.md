@@ -1,9 +1,6 @@
-# Bayesian_Statistics_Project
+# Bayesian Statistics Project
 **Parameter estimation** through Bayesian statistics is a powerful and flexible approach used in various fields of science and data analysis to infer the most likely values of unknown parameters in a model. It involves combining prior knowledge (prior distribution) about the parameters with observed data to update our beliefs and obtain a posterior distribution that reflects the updated knowledge about the parameters.
-## Parameter Estimation Problem
 
-## Eddington's Parameter Estimation Problem
-​The aim of this exercise is to analyse photographic plates from Eddington's 1919 eclipse expedition, to determine whether the data favour Newtonian gravity or Einstein's General Theory of Relativity.
 # Parameter Estimation using MCMC and HMC Algorithms
 
 Parameter estimation using Markov Chain Monte Carlo (MCMC) simulation and Hamiltonian Monte Carlo (HMC) algorithms is a powerful technique for sampling from complex probability distributions, particularly in Bayesian inference problems. These methods allow you to explore high-dimensional parameter spaces and estimate posterior distributions even when analytical solutions are not feasible. Let's delve into how MCMC and HMC work:
@@ -40,5 +37,7 @@ Parameter estimation using Markov Chain Monte Carlo (MCMC) simulation and Hamilt
 
 In summary, MCMC and HMC are essential tools for Bayesian parameter estimation, allowing you to explore complex parameter spaces and infer posterior distributions even for models with no closed-form solutions. These methods play a critical role in modern statistical analysis and scientific research.
 
-![MCMC and HMC](https://example.com/images/mcmc_hmc.png)
-:rocket: :bar_chart: :microscope:
+:rocket: :bar_chart: :microscope: 📖
+
+## Eddington's Parameter Estimation Problem
+​The aim of this exercise is to analyse photographic plates from Eddington's 1919 eclipse expedition, to determine whether the data favour Newtonian gravity or Einstein's General Theory of Relativity.
