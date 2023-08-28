@@ -38,6 +38,11 @@ Parameter estimation using Markov Chain Monte Carlo (MCMC) simulation and Hamilt
 In summary, MCMC and HMC are essential tools for Bayesian parameter estimation, allowing you to explore complex parameter spaces and infer posterior distributions even for models with no closed-form solutions. These methods play a critical role in modern statistical analysis and scientific research.
 
 :rocket: :bar_chart: :microscope: 📖 
+##  Cosmology parameter estimation from Supernovae Ia Data
+The aim of this exercise is to write an MCMC code to estimate cosmological parameters from supernova
+Ia data. Supernova Ia are standard candles (or can be made so), so can be used to measure the contents
+of the Universe.
+
 
 ## Eddington's Parameter Estimation Problem
 ​The aim of this exercise is to analyse photographic plates from Eddington's 1919 eclipse expedition, to determine whether the data favour Newtonian gravity or Einstein's General Theory of Relativity.
