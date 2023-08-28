@@ -1,11 +1,11 @@
 # Bayesian Statistics Project
 **Parameter estimation** through Bayesian statistics is a powerful and flexible approach used in various fields of science and data analysis to infer the most likely values of unknown parameters in a model. It involves combining prior knowledge (prior distribution) about the parameters with observed data to update our beliefs and obtain a posterior distribution that reflects the updated knowledge about the parameters.
 
-# Parameter Estimation using MCMC and HMC Algorithms
+## Parameter Estimation using MCMC and HMC Algorithms
 
 Parameter estimation using Markov Chain Monte Carlo (MCMC) simulation and Hamiltonian Monte Carlo (HMC) algorithms is a powerful technique for sampling from complex probability distributions, particularly in Bayesian inference problems. These methods allow you to explore high-dimensional parameter spaces and estimate posterior distributions even when analytical solutions are not feasible. Let's delve into how MCMC and HMC work:
 
-## Markov Chain Monte Carlo (MCMC)
+### Markov Chain Monte Carlo (MCMC)
 
 1. **Markov Chains**: MCMC is based on the idea of constructing a Markov chain that explores the parameter space. Each step in the chain depends only on the previous step, creating a sequence of parameter values.
 
@@ -13,7 +13,7 @@ Parameter estimation using Markov Chain Monte Carlo (MCMC) simulation and Hamilt
 
 3. **Convergence**: One of the challenges in MCMC is ensuring that the chain has converged to the target distribution. Methods such as monitoring trace plots, calculating autocorrelation, and using convergence diagnostics like the Gelman-Rubin statistic help assess convergence.
 
-## Hamiltonian Monte Carlo (HMC)
+### Hamiltonian Monte Carlo (HMC)
 
 1. **Dynamics and Energy**: HMC introduces a physical analogy to MCMC by considering the parameter space as a physical system. The parameter values are treated as positions, and their likelihood and prior are treated as potential energies.
 
@@ -23,7 +23,7 @@ Parameter estimation using Markov Chain Monte Carlo (MCMC) simulation and Hamilt
 
 4. **Metropolis Correction**: The HMC algorithm generates a new proposal using the dynamics and accepts it with a Metropolis-like acceptance step, just like in the Metropolis-Hastings algorithm. The acceptance accounts for both the proposed parameter value and its associated momentum.
 
-## Benefits and Considerations
+### Benefits and Considerations
 
 - **Efficiency**: HMC is often more efficient than traditional random walk Metropolis algorithms for high-dimensional and correlated parameter spaces. It explores the space more efficiently by utilizing the gradient information.
 
