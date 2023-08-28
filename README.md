@@ -39,7 +39,7 @@ In summary, MCMC and HMC are essential tools for Bayesian parameter estimation, 
 
 :rocket: :bar_chart: :microscope: 📖 
 ##  Cosmology parameter estimation from Supernovae Ia Data
-The aim of this exercise is to write an MCMC code to estimate cosmological parameters $\Omega_m$ Ωm, Ωv, h from supernova
+The aim of this exercise is to write an MCMC code to estimate cosmological parameters $\Omega_m$, $\Omega_\nu$, h from supernova
 Ia data. Supernova Ia are standard candles (or can be made so), so can be used to measure the contents
 of the Universe.
 
